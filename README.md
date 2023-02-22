@@ -1,6 +1,13 @@
 # forest-cover-classification
 Using deep learning to predict forest cover type (the most common kind of tree cover) based only on cartographic variables. 
 
+## Project Goals
+* Develop one or more deep learning classifiers for this multi-class classification problem.
+* Use TensorFlow with Keras to build classifier(s).
+* Use knowledge of hyperparameter tuning to improve the performance of model(s).
+* Test and analyze performance.
+* Create clean and modular code.
+
 ## Dataset Information ##
 The actual forest cover type for a given 30 x 30 meter cell was determined from US Forest Service (USFS) Region 2 Resource Information System data. The covertypes are the following:
 
@@ -17,7 +24,7 @@ The data is raw and has not been scaled or preprocessed. It contains binary colu
 
 This study area includes four wilderness areas located in the Roosevelt National Forest of northern Colorado. These areas represent forests with minimal human-caused disturbances, so existing forest cover types are mainly a result of ecological processes rather than forest management practices.
 
-### Attribute Information
+### Dataset Attribute Information
 Name / Data Type / Measurement / Description
 
 Elevation / quantitative /meters / Elevation in meters
@@ -48,9 +55,4 @@ Cover_Type (7 types) / integer / 1 to 7 / Forest Cover Type designation
 
 
 
-## Project Goals
-* Develop one or more classifiers for this multi-class classification problem.
-* Use TensorFlow with Keras to build classifier(s).
-* Use knowledge of hyperparameter tuning to improve the performance of model(s).
-* Test and analyze performance.
-* Create clean and modular code.
+
