@@ -37,7 +37,7 @@ Cover_Type (7 types) / integer / 1 to 7 / Forest Cover Type designation
 
 ## Project Goals
 * Develop one or more classifiers for this multi-class classification problem.
-* Use TensorFlow with Keras to build your classifier(s).
-* Use your knowledge of hyperparameter tuning to improve the performance of your model(s).
+* Use TensorFlow with Keras to build classifier(s).
+* Use knowledge of hyperparameter tuning to improve the performance of model(s).
 * Test and analyze performance.
 * Create clean and modular code.
